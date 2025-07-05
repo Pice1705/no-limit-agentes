@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>No Limit Empowerment</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="src/Images/Logofooter.png" />
+</head>
+<body>
+    <header>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-item">Inicio</a></li>
+      <li><a href="src/pages/agentes.html" class="nav-item">Agentes</a></li>
+      <li><a href="src/pages/consultoria.html" class="nav-item">Consultoría</a></li>
+      <li><a href="src/pages/contacto.html" class="nav-item">Contacto</a></li>
+    </ul>
+  </nav>
+
+    <main>
+       <!-- Banner Principal -->
+<section class="banner limpio">
+  <div class="banner-content">
+    <img src="src/Images/2.png" alt="Logo" class="logo-banner" />
+    <h1>Impulsá tu negocio con Automatización e Inteligencia Artificial</h1>
+    <p>Optimizá tus procesos, aumentá la eficiencia y liberá tiempo con soluciones inteligentes diseñadas a medida para tu empresa.</p>
+    <a href="pages/consultoria.html" class="btn-banner">Agendá una llamada de consultoría</a>
+  </div>
+</section>
+
+
+        <section class="beneficios">
+  <h2>🎯 Beneficios de Automatizar con IA</h2>
+  <div class="grid-beneficios">
+    <div class="beneficio-card" data-color="#ff00c8" data-angle="45">⚙️ Procesos más rápidos</div>
+    <div class="beneficio-card" data-color="#00ffe5" data-angle="135">💸 Reducción de costos operativos</div>
+    <div class="beneficio-card" data-color="#00ff6a" data-angle="90">⏳ Ahorro de tiempo valioso</div>
+    <div class="beneficio-card" data-color="#ffa600" data-angle="60">📈 Mejora en la toma de decisiones</div>
+    <div class="beneficio-card" data-color="#1ea1ff" data-angle="120">🤖 Atención al cliente 24/7</div>
+    <div class="beneficio-card" data-color="#ff4c4c" data-angle="30">🔒 Menos errores humanos</div>
+  </div>
+</section>
+
+        <!-- Separador -->
+        <div class="separador-linea">
+            <div class="linea"></div>
+            <div class="conector"></div>
+            <div class="linea"></div>
+        </div>
+
+        <!-- Testimonios de clientes -->
+        <section class="testimonios">
+            <h2>Testimonios de Clientes</h2>
+            <div class="grid-testimonios">
+                <div class="card-testimonio">
+                    <img src="src/Images/images (1).jpeg" alt="Cliente 1" />
+                    <h3>Lucía Ramírez</h3>
+                    <p class="tipo-negocio">📦 Importaciones</p>
+                    <p>"Con No Limit, logramos automatizar las órdenes de compra y seguimiento de envíos. Ahorro de tiempo increíble."</p>
+                </div>
+                <div class="card-testimonio">
+                    <img src="src/Images/depositphotos_309582382-stock-photo-attractive-young-woman-white-shirt.jpg" alt="Cliente 2" />
+                    <h3>Matías Gómez</h3>
+                    <p class="tipo-negocio">🏠 Inmobiliaria</p>
+                    <p>"Automatizamos la atención a potenciales clientes vía WhatsApp. ¡La conversión subió un 40%!"</p>
+                </div>
+                <div class="card-testimonio">
+                    <img src="src/Images/images.jpeg" alt="Cliente 3" />
+                    <h3>Camila Torres</h3>
+                    <p class="tipo-negocio">🛒 E-commerce</p>
+                    <p>"Las respuestas automáticas en mi tienda redujeron los carritos abandonados y mejoraron la experiencia."</p>
+                </div>
+                <div class="card-testimonio">
+                    <img src="src/Images/imagen.jpg" alt="Cliente 4" />
+                    <h3>Pedro Silva</h3>
+                    <p class="tipo-negocio">💼 Consultoría</p>
+                    <p>"Ahorro más de 10 horas a la semana gracias a bots que gestionan mi agenda y correos."</p>
+                </div>
+            </div>
+        </section>
+
+   
+
+        <!-- Dashboard Facturación -->
+        <section class="dashboard-facturacion">
+            <h2>📊 Facturación Total Lograda Para nuestros Clientes</h2>
+            <div class="barra-progreso-container" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="64.23" aria-label="Barra de facturación lograda">
+                <div class="barra-progreso" style="width: 64.23%;"></div>
+            </div>
+            <p class="monto-facturacion">64.230 USD</p>
+        </section>
+
+        <!-- Separador -->
+        <div class="separador-linea">
+            <div class="linea"></div>
+            <div class="conector"></div>
+            <div class="linea"></div>
+        </div>
+
+<section class="busqueda-clientes">
+  <h2>🔍 Buscar Clientes Destacados</h2>
+  <form id="form-busqueda">
+    <input type="text" id="busqueda-nombre" placeholder="Buscar por nombre..." />
+    <select id="filtro-sector">
+      <option value="">Todos los sectores</option>
+      <option value="Trading">Trading</option>
+      <option value="E-commerce">E-commerce</option>
+      <option value="Importaciones">Importaciones</option>
+      <option value="Inmobiliarias">Inmobiliarias</option>
+    </select>
+    <button type="submit" class="btn-banner">Buscar</button>
+  </form>
+
+  <ul id="lista-clientes" style="margin-top:20px; list-style:none; padding:0;">
+    <!-- Aquí se cargan los clientes -->
+  </ul>
+</section>
+        
+
+        <!-- Sección para conocer agentes -->
+        <section class="destacado-agentes">
+    <img src="src/Images/Blue Retro Workspace Notion Smore Header.png" alt="Foto de Agente" class="agente-imagen" />
+    <h2>Conocé a Nuestros Agentes</h2>
+    <p>100% Orientados a cada tipo de negocio, Creados para optimizar y escalar en todas las Areas</p>
+    <a href="src/pages/agentes.html" class="btn-banner">Ver Agentes</a>
+</section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="src/Images/Logofooter.png" alt="Logo No Limit Empowerment" />
+                <p>© 2025 No Limit Empowerment. Todos los derechos reservados.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="pages/agentes.html">Agentes</a>
+                <a href="pages/consultoria.html">Consultoría</a>
+                <a href="pages/contacto.html">Contacto</a>
+                <a href="#">Términos</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://instagram.com/" target="_blank" class="social-icon">📸</a>
+                <a href="https://facebook.com/" target="_blank" class="social-icon">📘</a>
+                <a href="https://wa.me/54XXXXXXXXX" target="_blank" class="social-icon">💬</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/scripts/animacionBarra.js"></script>
+    <script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+<script src="src/scripts/usuarios.js"></script>
+</body>
+</html>

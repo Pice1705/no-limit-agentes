@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto | Proyecto Servicios</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="../img/logo.jpg" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../index.html" class="logo-link">
+                <img src="../img/logo.jpg" alt="Logo" class="logo" />
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav-item">Inicio</a></li>
+                <li><a href="servicios.html" class="nav-item">Servicios</a></li>
+                <li><a href="contacto.html" class="nav-item active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner banner-contacto">
+            <div class="banner-content">
+                <h1>Contactate Con Nosotros</h1>
+                <p>¿Tenés dudas o querés trabajar con nosotros? Completá el formulario o escribinos directamente.</p>
+            </div>
+            <div class="banner-image_contacto">
+                <img src="../img/contacto.png" alt="Contactate" class="img-efecto-contacto" />
+            </div>
+        </section>
+
+        <div class="separador-linea">
+            <div class="linea"></div>
+            <div class="conector"></div>
+            <div class="linea"></div>
+        </div>
+
+        <section class="form-container">
+            <form>
+                <ul class="form-list">
+                    <li>
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+                    </li>
+                    <li>
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required />
+                    </li>
+                    <li>
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="+54 XXXX XX XXXX" />
+                    </li>
+                    <li>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </li>
+                    <li>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+
+        <section class="info-contacto">
+            <h2>También podés contactarnos en:</h2>
+            <ul>
+                <li>📧 Email: NoLimitEmpowement@contacto.com</li>
+                <li>📍 Dirección: Av. Siempre Viva 123, Ciudad Ejemplo</li>
+                <li>📱 Instagram: <a href="https://instagram.com/empresa" target="_blank">@NoLimitEmpowement</a></li>
+                <li>🔗 Facebook: <a href="https://facebook.com/empresa" target="_blank">/NoLimitEmpowement</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../img/logo.jpg" alt="Logo" />
+                <p>© 2025 NoLimitEmpowement. Todos los derechos reservados.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="../index.html">Inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="#">Términos</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://instagram.com/" target="_blank" class="social-icon">📸</a>
+                <a href="https://facebook.com/" target="_blank" class="social-icon">📘</a>
+                <a href="https://wa.me/54XXXXXXXXX" target="_blank" class="social-icon">💬</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
