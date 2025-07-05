@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentes | No Limit Empowerment</title>
+    <link rel="stylesheet" href="src/styles/agentes.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="src/Images/Logofooter.png" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-item">Inicio</a></li>
+        <li><a href="agentes.html" class="nav-item active">Agentes</a></li>
+        <li><a href="consultoria.html" class="nav-item">Consultoría</a></li>
+        <li><a href="contacto.html" class="nav-item">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="busqueda-agentes">
+      <h2>🔍 Filtrar Agentes</h2>
+      <form class="filtros-agentes">
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+          <option value="">Todas</option>
+          <option value="Trading">Trading</option>
+          <option value="E-commerce">E-commerce</option>
+          <option value="Importaciones">Importaciones</option>
+          <option value="Inmobiliarias">Inmobiliarias</option>
+        </select>
+
+        <label for="precio">Precio Máximo (USD):</label>
+        <input type="number" id="precio" name="precio" placeholder="Ej: 400" min="100" step="10" />
+
+        <button type="submit" class="btn-banner">Aplicar Filtros</button>
+      </form>
+    </section>
+
+    <section class="ofertas-agentes">
+      <h2>👥 Agentes Especializados por Sector</h2>
+
+      <div class="categoria-agentes">
+
+        <!-- Trading -->
+        <div class="card-agente" data-categoria="Trading" data-precio="500">
+          <h3>Agente de Ejecución de Posiciones</h3>
+          <p>IA que ejecuta operaciones automáticamente según tus señales o estrategias configuradas. Ideal para traders activos.</p>
+          <div class="precio">Fee mensual: $500 USD</div>
+          <div class="sector">🧠 Sector: Trading</div>
+        </div>
+
+        <div class="card-agente" data-categoria="Trading" data-precio="450">
+          <h3>Agente de Análisis Técnico</h3>
+          <p>Agente IA que genera informes diarios con patrones gráficos, soportes y resistencias basado en datos del mercado.</p>
+          <div class="precio">Fee mensual: $450 USD</div>
+          <div class="sector">📊 Sector: Trading</div>
+        </div>
+
+        <div class="card-agente" data-categoria="Trading" data-precio="480">
+          <h3>Agente de Reportes de Resultados</h3>
+          <p>Compila automáticamente tus operaciones y muestra estadísticas clave de rentabilidad y riesgo semanal.</p>
+          <div class="precio">Fee mensual: $480 USD</div>
+          <div class="sector">📈 Sector: Trading</div>
+        </div>
+
+        <!-- E-commerce -->
+        <div class="card-agente" data-categoria="E-commerce" data-precio="380">
+          <h3>Agente de Logística para Tiendas Online</h3>
+          <p>Controla entregas, seguimientos y alertas de pedidos desde un solo panel, 100% automatizado con IA.</p>
+          <div class="precio">Fee mensual: $380 USD</div>
+          <div class="sector">📦 Sector: E-commerce</div>
+        </div>
+
+        <div class="card-agente" data-categoria="E-commerce" data-precio="390">
+          <h3>Agente de Atención al Cliente E-commerce</h3>
+          <p>Automatiza respuestas frecuentes, seguimiento de envíos y reclamos mediante flujos IA por WhatsApp o web.</p>
+          <div class="precio">Fee mensual: $390 USD</div>
+          <div class="sector">🛒 Sector: E-commerce</div>
+        </div>
+
+        <div class="card-agente" data-categoria="E-commerce" data-precio="410">
+          <h3>Agente de Recuperación de Carritos</h3>
+          <p>Envía mensajes automáticos a usuarios que abandonaron su carrito, aumentando tus conversiones sin esfuerzo humano.</p>
+          <div class="precio">Fee mensual: $410 USD</div>
+          <div class="sector">🧾 Sector: E-commerce</div>
+        </div>
+
+        <!-- Importaciones -->
+        <div class="card-agente" data-categoria="Importaciones" data-precio="420">
+          <h3>Agente de Gestión Aduanera</h3>
+          <p>Coordina automáticamente trámites, documentaciones y actualizaciones de despacho con flujos conectados a correo y CRM.</p>
+          <div class="precio">Fee mensual: $420 USD</div>
+          <div class="sector">🌍 Sector: Importaciones</div>
+        </div>
+
+        <div class="card-agente" data-categoria="Importaciones" data-precio="390">
+          <h3>Agente de Control de Proveedores</h3>
+          <p>Monitorea tiempos de respuesta, gestiona órdenes pendientes y genera alertas automáticas ante demoras.</p>
+          <div class="precio">Fee mensual: $390 USD</div>
+          <div class="sector">📦 Sector: Importaciones</div>
+        </div>
+
+        <!-- Inmobiliarias -->
+        <div class="card-agente" data-categoria="Inmobiliarias" data-precio="350">
+          <h3>Agente de Atención al Público Inmobiliario</h3>
+          <p>Brinda respuestas automáticas, agendamientos y filtrado de leads calificados para agentes humanos.</p>
+          <div class="precio">Fee mensual: $350 USD</div>
+          <div class="sector">🏠 Sector: Inmobiliarias</div>
+        </div>
+
+        <div class="card-agente" data-categoria="Inmobiliarias" data-precio="370">
+          <h3>Agente de Recordatorios y Visitas</h3>
+          <p>IA que coordina visitas a inmuebles, envía recordatorios y recopila feedback de interesados en tiempo real.</p>
+          <div class="precio">Fee mensual: $370 USD</div>
+          <div class="sector">📅 Sector: Inmobiliarias</div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="separador-linea">
+      <div class="linea"></div>
+      <div class="conector"></div>
+      <div class="linea"></div>
+    </div>
+
+    <section class="porque-elegirnos">
+      <div class="elegirnos-content">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Nos destacamos por nuestra innovación, profesionalismo y resultados. Cada agente trabaja para potenciar tu negocio con soluciones personalizadas y efectivas.</p>
+        <ul>
+          <li>Experiencia comprobada en cada área</li>
+          <li>Atención personalizada 24/7</li>
+          <li>Optimización continua de procesos</li>
+          <li>Resultados medibles y transparentes</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="src/Images/Logofooter.png" alt="Logo No Limit Empowerment" />
+        <p>© 2025 No Limit Empowerment. Todos los derechos reservados.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="agentes.html">Agentes</a>
+        <a href="consultoria.html">Consultoría</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="#">Términos</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://instagram.com/" target="_blank" class="social-icon">📸</a>
+        <a href="https://facebook.com/" target="_blank" class="social-icon">📘</a>
+        <a href="https://wa.me/54XXXXXXXXX" target="_blank" class="social-icon">💬</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="src/scripts/filtrarAgentes.js"></script>
+  <script>
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+  </script>
+</body>
+</html>
